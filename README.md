@@ -41,4 +41,4 @@ Join our community on Discord for assistance and updates:
 [Join Discord](https://discord.gg/geCjrRbAwC)
 
 ---
-*Copyright © 2026. This is a clean fork of the Arix Theme.*
+*Copyright © 2026. Vantablack Theme.*
