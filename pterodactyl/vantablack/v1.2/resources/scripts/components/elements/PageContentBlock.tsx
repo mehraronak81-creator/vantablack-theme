@@ -42,20 +42,7 @@ const PageContentBlock: React.FC<PageContentBlockProps> = ({ title, showFlashKey
                         &nbsp;&copy; 2015 - {new Date().getFullYear()}
                     </p>
                     <p css={tw`text-center text-neutral-300 text-xs`}>
-                        {copyright == 'Designed by Weijers.one' ?
-                            <>
-                            Designed by
-                            <span className="px-1 py-[.35rem] font-semibold bg-gray-600 rounded scale-75 inline-block">W.1</span>
-                            <a
-                                rel={'noopener nofollow noreferrer'}
-                                href={'https://vantablack.gg'}
-                                target={'_blank'}
-                                css={tw`no-underline text-neutral-300 hover:text-neutral-100`}
-                            >
-                                Weijers.one
-                            </a>
-                            </>
-                        : parser.toReact(copyright)}
+                        {parser.toReact(copyright)}
                     </p>
                 </ContentContainer>
             </div>

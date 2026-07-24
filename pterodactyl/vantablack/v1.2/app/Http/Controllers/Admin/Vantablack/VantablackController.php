@@ -23,8 +23,8 @@ class VantablackController extends Controller
             'logo' => $this->settings->get('settings::vantablack:logo', '/vantablack/Vantablack.png'),
             'fullLogo' => $this->settings->get('settings::vantablack:fullLogo', false),
             'logoHeight' => $this->settings->get('settings::vantablack:logoHeight', '32px'),
-            'discord' => $this->settings->get('settings::vantablack:discord', '715281172422197300'),
-            'support' => $this->settings->get('settings::vantablack:support', 'https://discord.gg/geCjrRbAwC'),
+            'discord' => $this->settings->get('settings::vantablack:discord', 'none'),
+            'support' => $this->settings->get('settings::vantablack:support', 'https://discord.gg/vantahost'),
             'status' => $this->settings->get('settings::vantablack:status', ''),
             'billing' => $this->settings->get('settings::vantablack:billing', ''),
         ]);

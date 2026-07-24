@@ -22,7 +22,7 @@ class VantablackMailController extends Controller
         return view('admin.vantablack.mail', [
             'mail_color' => $this->settings->get('settings::vantablack:mail_color', '#4a35cf'),
             'mail_backgroundColor' => $this->settings->get('settings::vantablack:mail_backgroundColor', '#F5F5FF'),
-            'mail_logo' => $this->settings->get('settings::vantablack:mail_logo', 'https://vantablack.gg/vantablack.png'),
+            'mail_logo' => $this->settings->get('settings::vantablack:mail_logo', '/vantablack/Vantablack.png'),
             'mail_logoFull' => $this->settings->get('settings::vantablack:mail_logoFull', false),
             'mail_mode' => $this->settings->get('settings::vantablack:mail_mode', 'light'),
 

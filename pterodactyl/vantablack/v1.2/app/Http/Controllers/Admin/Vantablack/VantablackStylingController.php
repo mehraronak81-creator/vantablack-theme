@@ -25,7 +25,7 @@ class VantablackStylingController extends Controller
             'backdrop' => $this->settings->get('settings::vantablack:backdrop', false),
             'backdropPercentage' => $this->settings->get('settings::vantablack:backdropPercentage', '100%'),
             'defaultMode' => $this->settings->get('settings::vantablack:defaultMode', 'darkmode'),
-            'copyright' => $this->settings->get('settings::vantablack:copyright', 'Designed by Weijers.one'),
+            'copyright' => $this->settings->get('settings::vantablack:copyright', 'VantaHost™ — Theme by Void Development'),
             'radiusInput' => $this->settings->get('settings::vantablack:radiusInput', '7px'),
             'borderInput' => $this->settings->get('settings::vantablack:borderInput', true),
             'radiusBox' => $this->settings->get('settings::vantablack:radiusBox', '10px'),

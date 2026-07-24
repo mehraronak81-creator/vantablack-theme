@@ -8,6 +8,27 @@ Route::get('/', [Admin\BaseController::class, 'index'])->name('admin.index');
 
 /*
 |--------------------------------------------------------------------------
+| System Health JSON Route
+|--------------------------------------------------------------------------
+|
+| Required by admin/index.blade.php for the admin dashboard health check.
+|
+*/
+Route::get('/system-health.json', function () {
+    return response()->json([
+        'php_version' => PHP_VERSION,
+        'framework' => app()->version(),
+        'environment' => app()->environment(),
+        'debug_mode' => config('app.debug'),
+        'cache_driver' => config('cache.default'),
+        'queue_driver' => config('queue.default'),
+        'session_driver' => config('session.driver'),
+        'status' => 'ok',
+    ]);
+})->name('admin.system-health.json');
+
+/*
+|--------------------------------------------------------------------------
 | Theme Controller Routes
 |--------------------------------------------------------------------------
 |

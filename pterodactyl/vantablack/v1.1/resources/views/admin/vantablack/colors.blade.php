@@ -263,7 +263,7 @@
                         margin: 10px 0px;
                         font-size: 1.5rem;
                     ">
-                        <i data-lucide="globe-2" style="width:20px;color:{{ $gray300 }}"></i> panel.weijers.one:25565
+                        <i data-lucide="globe-2" style="width:20px;color:{{ $gray300 }}"></i> play.vantahost.com:25565
                     </div>
                     <hr style="border-color:{{ $gray500 }};"/>
                     <div style="
@@ -634,7 +634,7 @@
                         margin: 10px 0px;
                         font-size: 1.5rem;
                     ">
-                        <i data-lucide="globe-2" style="width:20px;color:{{ $lightmode_gray300 }}"></i> panel.weijers.one:25565
+                        <i data-lucide="globe-2" style="width:20px;color:{{ $lightmode_gray300 }}"></i> play.vantahost.com:25565
                     </div>
                     <hr style="border-color:{{ $lightmode_gray500 }};"/>
                     <div style="

@@ -29,10 +29,10 @@ class AssetComposer
                 'logoHeight' => $this->settings->get('settings::vantablack:logoHeight', '32px'),
 
                 /* SOCIALS */ 
-                'discord' => $this->settings->get('settings::vantablack:discord', '715281172422197300'),
-                'support' => $this->settings->get('settings::vantablack:support', 'https://discord.gg/geCjrRbAwC'),
-                'status' => $this->settings->get('settings::vantablack:status', 'https://status.weijers.one'),
-                'billing' => $this->settings->get('settings::vantablack:billing', 'https://billing.weijers.one'),
+                'discord' => $this->settings->get('settings::vantablack:discord', 'none'),
+                'support' => $this->settings->get('settings::vantablack:support', 'https://discord.gg/vantahost'),
+                'status' => $this->settings->get('settings::vantablack:status', ''),
+                'billing' => $this->settings->get('settings::vantablack:billing', ''),
 
                 'announcementType' => $this->settings->get('settings::vantablack:announcementType', 'party'),
                 'announcementCloseable' => $this->settings->get('settings::vantablack:announcementCloseable', false),
@@ -41,20 +41,20 @@ class AssetComposer
                 /* MAIL */
                 'mail_color' => $this->settings->get('settings::vantablack:mail_color', '#4a35cf'),
                 'mail_backgroundColor' => $this->settings->get('settings::vantablack:mail_backgroundColor', '#F5F5FF'),
-                'mail_logo' => $this->settings->get('settings::vantablack:mail_logo', 'https://vantablack.gg/vantablack.png'),
+                'mail_logo' => $this->settings->get('settings::vantablack:mail_logo', '/vantablack/Vantablack.png'),
                 'mail_logoFull' => $this->settings->get('settings::vantablack:mail_logoFull', false),
                 'mail_mode' => $this->settings->get('settings::vantablack:mail_mode', 'light'),
 
-                'mail_discord' => $this->settings->get('settings::vantablack:mail_discord', 'https://vantablack.gg/discord'),
+                'mail_discord' => $this->settings->get('settings::vantablack:mail_discord', 'https://discord.gg/vantahost'),
                 'mail_twitter' => $this->settings->get('settings::vantablack:mail_twitter', 'https://x.com'),
                 'mail_facebook' => $this->settings->get('settings::vantablack:mail_facebook', 'https://facebook.com'),
                 'mail_instagram' => $this->settings->get('settings::vantablack:mail_instagram', 'https://instagram.com'),
                 'mail_linkedin' => $this->settings->get('settings::vantablack:mail_linkedin', 'https://linkedin.com'),
                 'mail_youtube' => $this->settings->get('settings::vantablack:mail_youtube', 'https://youtube.com'),
 
-                'mail_status' => $this->settings->get('settings::vantablack:mail_status', 'https://vantablack.gg/status'),
-                'mail_billing' => $this->settings->get('settings::vantablack:mail_billing', 'https://vantablack.gg/billing'),
-                'mail_support' => $this->settings->get('settings::vantablack:mail_support', 'https://vantablack.gg/support'),
+                'mail_status' => $this->settings->get('settings::vantablack:mail_status', ''),
+                'mail_billing' => $this->settings->get('settings::vantablack:mail_billing', ''),
+                'mail_support' => $this->settings->get('settings::vantablack:mail_support', 'https://discord.gg/vantahost'),
 
                 /* COMPONENTS */
                 'serverRow' => $this->settings->get('settings::vantablack:serverRow', 1),
@@ -86,7 +86,7 @@ class AssetComposer
                 'backdrop' => $this->settings->get('settings::vantablack:backdrop', false),
                 'backdropPercentage' => $this->settings->get('settings::vantablack:backdropPercentage', '100%'),
                 'defaultMode' => $this->settings->get('settings::vantablack:defaultMode', 'darkmode'),
-                'copyright' => $this->settings->get('settings::vantablack:copyright', 'Designed by Weijers.one'),
+                'copyright' => $this->settings->get('settings::vantablack:copyright', 'VantaHost™ — Theme by Void Development'),
                 'radiusInput' => $this->settings->get('settings::vantablack:radiusInput', '7px'),
                 'borderInput' => $this->settings->get('settings::vantablack:borderInput', true),
                 'radiusBox' => $this->settings->get('settings::vantablack:radiusBox', '10px'),
@@ -97,8 +97,8 @@ class AssetComposer
 
                 /* META DATA */
                 'meta_color' => $this->settings->get('settings::vantablack:meta_color', '#4a35cf'),
-                'meta_title' => $this->settings->get('settings::vantablack:meta_title', 'Pterodactyl Panel'),
-                'meta_description' => $this->settings->get('settings::vantablack:meta_description', 'Our official Pterodactyl panel'),
+                'meta_title' => $this->settings->get('settings::vantablack:meta_title', 'VantaHost Panel'),
+                'meta_description' => $this->settings->get('settings::vantablack:meta_description', 'VantaHost — Game Server Hosting Panel'),
                 'meta_image' => $this->settings->get('settings::vantablack:meta_image', '/vantablack/meta-tags.png'),
                 'meta_favicon' => $this->settings->get('settings::vantablack:meta_favicon', '/vantablack/Vantablack.png'),
 

@@ -38,10 +38,10 @@
         <nav>
             <a href="{{ route('admin.vantablack') }}" class="logo">
                 <img src="/vantablack/Vantablack.png" class="logo" alt="Vantablack Logo"/>
-                Vantablack Editor
+                VantaHost Editor
             </a>
             <div class="nav-end">
-                <a href="https://discord.gg/geCjrRbAwC" target="_blank">
+                <a href="https://discord.gg/vantahost" target="_blank">
                     <i class="fa-brands fa-discord"></i> Discord
                 </a>
                 <a href="{{ route('account') }}" class="account">
@@ -111,7 +111,7 @@
                 </ul>
                 <ul class="sidebar-bottom">
                     <li>
-                        <a href="https://vantablack.gg/docs">
+                        <a href="https://discord.gg/vantahost">
                             <i data-lucide="help-circle"></i>
                         </a>
                         <span class="link-tooltip">Support</span>

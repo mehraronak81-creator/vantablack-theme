@@ -164,7 +164,7 @@
                     <strong><i class="fa fa-fw {{ $appIsGit ? 'fa-git-square' : 'fa-code-fork' }}"></i></strong> {{ $appVersion }}<br />
                     <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
                 </div>
-                Copyright &copy; 2015 - {{ date('Y') }} <a href="https://pterodactyl.io/">Pterodactyl Software</a>.
+                VantaHost&trade; &copy; {{ date('Y') }} &mdash; Theme by <a href="https://discord.gg/vantahost">Void Development</a>. Powered by <a href="https://pterodactyl.io/">Pterodactyl</a>.
             </footer>
         </div>
         @section('footer-scripts')
