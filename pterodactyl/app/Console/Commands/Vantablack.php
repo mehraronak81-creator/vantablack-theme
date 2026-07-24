@@ -124,7 +124,7 @@ class Vantablack extends Command
         $this->info("Installing required packages...");
         $this->info("This can take a minute...");
         
-        $packages = ['@types/md5', 'md5', 'react-icons', '@types/bbcode-to-react', 'bbcode-to-react', 'i18next-browser-languagedetector'];
+        $packages = ['@types/md5', 'md5', 'react-icons', '@types/bbcode-to-react', 'bbcode-to-react', 'i18next-browser-languagedetector', 'history', 'react-router'];
         
         // Check if yarn is available, otherwise fallback to npm
         $hasYarn = (new Process(['yarn', '--version']))->run() === 0;
